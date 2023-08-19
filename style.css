@@ -1,0 +1,37 @@
+.container{
+    margin:auto;
+    height:80%;
+    width:60%;
+    max-width: 80%;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+}
+input{
+    height: 40px;
+    border-radius: 8px;
+}
+button{
+    height: 40px;
+    border-radius: 8px;
+    background-color: blue;
+    color: #fff;
+    font-size: 22px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
